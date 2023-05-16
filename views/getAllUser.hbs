@@ -1,0 +1,19 @@
+<a href='/'>
+  Вернуться на главную страницу
+</a>
+
+<h1>
+  Список всех пользовтелей
+</h1>
+
+{{#each users}}
+  <li>Имя:  {{this.name}}</li>
+  <li>Фамилия:  {{this.lastName}}</li>
+  <li>Возраст:  {{this.age}}</li>
+  <li>ИНН:  {{this.passport}}</li>
+  <li>Дата:  {{this.data}}</li>  
+<br>
+<br>
+<br>
+<br>
+{{/each}}
